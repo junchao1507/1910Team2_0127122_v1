@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">U-SAFE</string>
+
+    <!--U-SAFE Page Strings-->
+    <string name="menu_grid">Menu Grid</string>
+    <string name="update_risk_status">Update Risk Status</string>
+    <string name="book_a_slot">Book a Slot</string>
+    <string name="learn_about_covid_19">Learn about Covid-19</string>
+    <string name="test_your_knowledge">Test your Knowledge</string>
+    <string name="report_a_concern">Report a Concern</string>
+    <string name="view_history">View History</string>
+    <string name="profile_icon">Profile Icon</string>
+
+    <!--Booking Page Strings-->
+    <string name="prompt_select_date">1. Select a Booking Date</string>
+    <string name="prompt_select_time">2. Select a Time</string>
+    <string name="prompt_select_lecture_theatre">3. Select a Lecture Theatre</string>
+    <string name="title_information">Information:</string>
+    <string name="prompt_select_seat">4. Select an available seat (green color).</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_book">Book</string>
+
+    <!--History Page Auto-generated Strings-->
+    <string name="title_activity_history">History</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

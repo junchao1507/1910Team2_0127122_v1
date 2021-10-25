@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_booking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_quiz.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_report.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_revision.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_update_risk_status.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/fragment_history.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/menu_item.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
