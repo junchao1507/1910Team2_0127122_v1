@@ -16,7 +16,7 @@
     <string name="prompt_select_time">2. Select a Time</string>
     <string name="prompt_select_lecture_theatre">3. Select a Lecture Theatre</string>
     <string name="title_information">Information:</string>
-    <string name="prompt_select_seat">4. Select an available seat (green color).</string>
+    <string name="prompt_select_seat">4. Select an available seat.</string>
     <string name="btn_next">Next</string>
     <string name="btn_book">Book</string>
 

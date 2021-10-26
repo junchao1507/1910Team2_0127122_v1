@@ -1,27 +1,40 @@
 package com.example.a1910team2_0127122_v1;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.PopupWindow;
+import android.widget.Spinner;
 import android.widget.TimePicker;
 
-import java.sql.Date;
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Date;
+//import java.util.Time;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 public class Booking extends AppCompatActivity {
     DatePickerDialog datePicker;
     TimePickerDialog timePicker;
     Calendar c;
-    EditText date, time, theatre;
+    EditText date, time, seat;
+    AutoCompleteTextView theatre;
     ArrayList<LectureTheatre> theatreList = new ArrayList<>();
-    ArrayList<Lecture> lectureList = new ArrayList<>();
+    ArrayList<Lesson> lessonList = new ArrayList<>();
     ArrayList<Subject> subjectList = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,25 +42,73 @@ public class Booking extends AppCompatActivity {
         setContentView(R.layout.activity_booking);
         date = (EditText) findViewById(R.id.edt_inputDate);
         time = (EditText) findViewById(R.id.edt_inputTime);
-        theatre = (EditText) findViewById(R.id.edt_iinputLectureTheatre);
+        theatre = (AutoCompleteTextView) findViewById(R.id.actv_inputLectureTheatre);
+        seat = (EditText) findViewById(R.id.edt_inputSeat);
 
-        // Adding a list of lecture theatres
-        theatreList.add(new LectureTheatre("GF-LTR-01", 100));
-        theatreList.add(new LectureTheatre("GF-LTR-02", 100));
-        theatreList.add(new LectureTheatre("GF-LTR-03", 100));
-        theatreList.add(new LectureTheatre("GF-LTR-04", 100));
+//        SimpleDateFormat dateFormatter = new SimpleDateFormat("dd-MMM-yyyy");
+//        SimpleDateFormat timeFormatter = new SimpleDateFormat("HH:mm");
 
-        // Adding a list of subjects
-        subjectList.add(new Subject(
-                1,
-                "XBMC3014",
-                "Internet & Web Development",
-                "Dr. Law Foong Li",
-                "TUESDAY",
-                "WEDNESDAY",
-                new Date())
+//        // Adding a list of lecture theatres
+//        theatreList.add(new LectureTheatre("GF-LTR-01", 100));
+//        theatreList.add(new LectureTheatre("GF-LTR-02", 100));
 
-        // Adding a list of lectures
+//        // Adding a list of subjects
+//        Date startDate, endDate;
+//        try {
+//            startDate = (Date) dateFormatter.parse("17-Jan-2022");
+//            endDate = (Date) dateFormatter.parse("15-Apr-2022");
+//
+//            subjectList.add(new Subject(
+//                    1,
+//                    "XBMC3014",
+//                    "Internet & Web Development",
+//                    "Dr. Law Foong Li",
+//                    "MONDAY",
+//                    "TUESDAY",
+//                    startDate,
+//                    endDate,
+//                    30));
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+
+
+//        // Adding a list of lessons (lectures + tutorials)
+//        Date lessonDate, lessonTime;
+//        try {
+//            lessonDate = (Date) dateFormatter.parse("17-Jan-2022");
+//            lessonTime = (Date) timeFormatter.parse("10:00");
+//
+//            lessonList.add(new Lesson(
+//                    1,
+//                    "Lecture",
+//                    lessonDate,
+//                    lessonTime,
+//                    2,
+//                    1
+//            ));
+//
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//
+//        try {
+//            lessonDate = (Date) dateFormatter.parse("18-Jan-2022");
+//            lessonTime = (Date) timeFormatter.parse("10:00");
+//
+//            lessonList.add(new Lesson(
+//                    2,
+//                    "Tutorial",
+//                    lessonDate,
+//                    lessonTime,
+//                    2,
+//                    1
+//            ));
+//
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+
 
         date.setInputType(InputType.TYPE_NULL);
         date.setOnClickListener(new View.OnClickListener() {
@@ -94,5 +155,9 @@ public class Booking extends AppCompatActivity {
                 timePicker.show();
             }
         });
+
+        LectureTheatre.initTheatres();
+        TheatreAdapter adapter = new TheatreAdapter(this, R.layout.theatre_dropdown_adapter, LectureTheatre.getTheatreList());
+        theatre.setAdapter(adapter);
     }
 }
