@@ -34,7 +34,7 @@
             android:layout_marginStart="125dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="1dp"
-            android:src="@drawable/profile_picture"
+            android:src="@drawable/image_profile"
             android:focusable="true"
             android:contentDescription="@string/profile_icon"/>
     </LinearLayout>
@@ -50,6 +50,8 @@
         android:id="@+id/gv_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="30dp"
         android:horizontalSpacing="15dp"
         android:verticalSpacing="15dp"

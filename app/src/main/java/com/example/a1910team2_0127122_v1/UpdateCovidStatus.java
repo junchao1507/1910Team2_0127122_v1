@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class UpdateRiskStatus extends AppCompatActivity {
+public class UpdateCovidStatus extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_risk_status);
+        setContentView(R.layout.activity_update_covid_status);
     }
 }

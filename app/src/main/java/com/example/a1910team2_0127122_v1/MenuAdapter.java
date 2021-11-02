@@ -1,6 +1,7 @@
 package com.example.a1910team2_0127122_v1;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,6 +64,19 @@ public class MenuAdapter extends ArrayAdapter<MenuItem> {
 
         btn_menu.setImageResource(menuItem.getImgId());
         txt_menu.setText(menuItem.getMenuName());
+
+//        // Set different colors for each card, but the card settings will become default
+//        switch(position){
+//            case 0: case 3:
+//                v.setBackgroundColor(Color.parseColor("#ECEC00"));
+//                break;
+//            case 1: case 4:
+//                v.setBackgroundColor(Color.parseColor("#73E977"));
+//                break;
+//            case 2: case 5:
+//                v.setBackgroundColor(Color.parseColor("#5EEEEC"));
+//                break;
+//        }
 
         return v;
     }

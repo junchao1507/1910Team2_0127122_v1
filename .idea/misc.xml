@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/drawable/grid_color_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/drawable/ic_baseline_edit_profile.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/drawable/ic_baseline_publish_24.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_booking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_cover.xml" value="0.1640625" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_edit_profile.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_quiz.xml" value="0.1796875" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_report.xml" value="0.1796875" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_revision.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_update_covid_status.xml" value="0.1796875" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_update_risk_status.xml" value="0.1796875" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/activity_update_vaccination_status.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/fragment_history.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/grid_color_selector.xml" value="0.15989583333333332" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/menu_item.xml" value="0.22" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/seat_item.xml" value="0.1640625" />
         <entry key="..\:/Users/Lenovo/OneDrive/Y3S1/Mobile Programming &amp; Screen Design 2/AndroidStudioProjects/Assignment/1910Team2_0127122_v1/app/src/main/res/layout/theatre_dropdown_adapter.xml" value="0.1640625" />

@@ -165,7 +165,5 @@ public class Subject {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
-
     }
 }
